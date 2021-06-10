@@ -38,6 +38,12 @@
     height: 153px;
     border-radius: 50%;
     margin-bottom: 28px;
+    border: 2px solid transparent;
+    transition-duration: 0.2s;
+
+    &:hover {
+      border: 2px solid $main-color;
+    }
   }
 
   &__person {
